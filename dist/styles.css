@@ -1,0 +1,154 @@
+/* Resets */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+a { text-decoration: none; }
+
+a img { border: 0; }
+
+ul { list-style: none; }
+
+/* Page */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    background-color: #003459;
+    color: #fff;
+    text-align: center;
+}
+
+body > article {
+    height: 100%;
+}
+
+    article > section {
+        display: flex;
+        align-items: center;
+        padding: 100px;
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    article > section:first-child {
+        float: left;
+    }
+
+    article > section:last-child {
+        margin-left: 50%;
+        background-color: #fff;
+        color: #222;
+        font-size: 22px;
+        text-align: left;
+    }
+
+        section h1 {
+            margin: 0 auto 45px auto;
+            padding: 5px 0 10px 0;
+            width: 320px;
+            background-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 10px 10px 0 rgba(255, 255, 255, 0.05);
+            font-weight: 300;
+        }
+
+        section > div > p {
+            margin-bottom: 30px;
+        }
+        section:first-child > div > p:first-child {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        section > div > form > p {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+            section > div > p a {
+                color: #fff;
+                text-decoration: underline;
+            }
+
+        section > div > form {
+            margin: 0 0 45px 0;
+        }
+
+            form > input {
+                padding: 8px;
+                width: 240px;
+                font-size: 20px;
+                border: 1px solid #000b20;
+                text-align: center;
+            }
+
+            form > button {
+                padding: 7px 14px;
+                font-size: 20px;
+                border: 1px solid #001836;
+                background-color: #001836;
+                color: #fff;
+                box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.1);
+            }
+            article > section:last-child form > button {
+                border-color: #281d39;
+                background-color: #281d39;
+            }
+            form > button:hover {
+                cursor: pointer;
+            }
+
+        section > div > a {
+            display: inline-block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            font-size: 20px;
+            color: #003459;
+        }
+        article > section:last-child > div > a {
+            color: #5b4282;
+        }
+        section > div > a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        article > section:last-child ul li {
+            padding: 8px 0;
+        }
+
+            article > section:last-child ul li a {
+                color: #222;
+            }
+
+                article > section:last-child ul li strong {
+                    display: block;
+                    margin-bottom: 0px;
+                    color: #222;
+                }
+                article > section:last-child ul li a:hover strong {
+                    color: #666;
+                }
