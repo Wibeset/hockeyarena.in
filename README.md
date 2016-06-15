@@ -1,8 +1,8 @@
-# Hockey arena in ...
+# Hockey arenas in ...
 
 We're making it easier to find hockey arenas near you: maps and directions to ice hockey arenas and rinks and ice skating arenas and rinks throughout North America.
 
-Be the first to know when it will available by [subscribing to our newsletter](http://www.google.com).
+http://www.hockeyarenas.in
 
 ## Others projects
 
