@@ -7,7 +7,7 @@ http://www.hockeyarenas.in
 ## Others projects
 
 * [Lygue](http://www.lygue.com) - Better organize your league. Manage, share, discuss and archive everything that's essential for your league.
-* [Hockey Tournments In](http://www.hockeytournments.in) - We're making it easier to find hockey tournments near you.
+* [Hockey Tournaments In](http://www.hockeytournaments.in) - We're making it easier to find hockey tournaments near you.
 * [Top NHL Players](http://www.topnhlplayers.com) - A collection of top NHL players grouped by position and season.
 
 ## Authors
